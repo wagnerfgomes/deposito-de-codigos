@@ -1,0 +1,76 @@
+{
+    "compilerOptions": {
+        /* Projetos */
+        // "incremental": true,                              // Salva arquivos .tsbuildinfo para permitir compilações incrementais
+        // "composite": true,                                // Habilita restrições para projetos TypeScript com referências
+        // "tsBuildInfoFile": "./.tsbuildinfo",              // Especifica o caminho para o arquivo de compilação incremental
+        // "disableSourceOfProjectReferenceRedirect": true,  // Desabilita preferência por arquivos de origem ao referenciar projetos compostos
+        // "disableSolutionSearching": true,                 // Evita verificações de referência entre múltiplos projetos
+        // "disableReferencedProjectLoad": true,             // Reduz a carga de projetos referenciados automaticamente
+
+        /* Linguagem e Ambiente */
+        "target": "ES2016", // Define a versão do JavaScript gerado e inclui declarações compatíveis de biblioteca
+        // "lib": [],                                        // Especifica um conjunto de arquivos de declaração de biblioteca que descrevem o ambiente de execução
+        "jsx": "react-jsx", // Especifica o que o código JSX gerado será
+        // "experimentalDecorators": true,                   // Habilita suporte experimental para decoradores
+        // "emitDecoratorMetadata": true,                    // Emite metadados de tipo para declarações decoradas nos arquivos fonte
+        // "jsxFactory": "",                                 // Função JSX usada ao gerar JSX para React
+        // "jsxFragmentFactory": "",                         // Referência para fragmentos JSX quando gerar JSX para React
+        // "jsxImportSource": "",                            // Especifica o módulo usado para importar funções JSX ao usar 'jsx: react-jsx'
+        // "noLib": true,                                    // Desabilita a inclusão de arquivos de biblioteca, incluindo o lib.d.ts padrão
+        // "useDefineForClassFields": true,                  // Emite campos de classe compatíveis com ECMAScript
+        // "moduleDetection": "auto",                        // Método de detecção de formato de módulos JS
+
+        /* Módulos */
+        "module": "ESNext", // Especifica o tipo de código de módulo gerado
+        "rootDir": "./src", // Especifica a pasta raiz dos arquivos fonte
+        // "moduleResolution": "node10",                     // Método de resolução de módulos
+        // "baseUrl": "./",                                  // Diretório base para resolver módulos não-relativos
+        // "paths": {},                                      // Mapeamento de importações para locais adicionais
+        "rootDirs": [], // Permite múltiplas pastas sendo tratadas como uma ao resolver módulos
+        // "typeRoots": [],                                  // Pastas que atuam como './node_modules/@types'
+        // "types": [],                                      // Especifica pacotes de tipos a serem incluídos sem serem referenciados em arquivos fonte
+        // "allowUmdGlobalAccess": true,                     // Permite acesso a globais UMD de módulos
+        // "moduleSuffixes": [],                             // Lista de sufixos de nome de arquivo ao buscar um módulo
+        // "allowImportingTsExtensions": true,               // Permite importações com extensões de arquivo TypeScript
+        // "resolveJsonModule": true,                        // Permite importação de arquivos JSON
+
+        /* Suporte a JavaScript */
+        "allowJs": true, // Permite arquivos JavaScript no seu projeto
+        "checkJs": true, // Verifica erros em arquivos JavaScript
+        // "maxNodeModuleJsDepth": 1,                        // Especifica a profundidade máxima para verificar arquivos JavaScript em 'node_modules'
+
+        /* Emissão */
+        // "declaration": true,                              // Gera arquivos .d.ts a partir de arquivos TypeScript e JavaScript
+        // "declarationMap": true,                           // Cria mapas de origem para arquivos .d.ts
+        // "emitDeclarationOnly": true,                      // Emite apenas arquivos .d.ts, não arquivos JavaScript
+        // "sourceMap": true,                                // Cria arquivos de mapa de origem para arquivos JavaScript emitidos
+        // "inlineSourceMap": true,                          // Inclui arquivos de mapa de origem dentro do JavaScript emitido
+        // "noEmit": true,                                   // Desabilita a emissão de arquivos após a compilação
+        // "outFile": "./",                                  // Especifica o arquivo que combina todas as saídas em um único arquivo JavaScript
+        "outDir": "./dist", // Especifica a pasta de saída para todos os arquivos emitidos
+        // "removeComments": true,                           // Desabilita a emissão de comentários
+        // "importHelpers": true,                            // Permite importar funções auxiliares da tslib uma vez por projeto
+        // "downlevelIteration": true,                       // Emite JavaScript mais compatível, mas mais verboso e menos performático
+
+        /* Interoperabilidade */
+        "esModuleInterop": true, // Emite JavaScript adicional para facilitar a importação de módulos CommonJS
+        // "preserveSymlinks": true,                         // Desabilita a resolução de symlinks para o caminho real
+        "forceConsistentCasingInFileNames": true, // Garante a consistência de maiúsculas e minúsculas nos imports
+
+        /* Verificação de Tipos */
+        "strict": true, // Habilita todas as opções de verificação rígida de tipos
+        "noImplicitAny": true, // Habilita erro para expressões e declarações com tipo implícito 'any'
+        "strictNullChecks": true, // Considera 'null' e 'undefined' durante a verificação de tipos
+        "strictFunctionTypes": true, // Verifica compatibilidade de subtipos ao atribuir funções
+        // "strictBindCallApply": true,                      // Verifica se os argumentos dos métodos 'bind', 'call' e 'apply' são compatíveis
+        // "strictPropertyInitialization": true,             // Verifica propriedades de classe não inicializadas no construtor
+        // "noImplicitThis": true,                           // Erro quando o tipo de 'this' é 'any'
+        "alwaysStrict": true, // Sempre emite 'use strict'
+        // "noUnusedLocals": true,                           // Erro quando variáveis locais não são lidas
+        "noUnusedParameters": true, // Erro quando parâmetros de funções não são lidos
+        "noImplicitReturns": true, // Erro quando código não retorna explicitamente em uma função
+        // "noFallthroughCasesInSwitch": true,               // Erro para casos sem break no switch
+        "skipLibCheck": true // Ignora a verificação de arquivos .d.ts
+    }
+}

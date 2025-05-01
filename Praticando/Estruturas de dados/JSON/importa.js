@@ -1,0 +1,1 @@
+const estudante = require('./estudante.json');

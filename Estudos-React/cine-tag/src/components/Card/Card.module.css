@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.152);
+}
+
+.imagem {
+    width: 28rem;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    padding: 1.6rem;
+    min-height: 11.6rem;
+}
+
+.titulo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.icone {
+    cursor: pointer;
+    width: 2rem;
+}

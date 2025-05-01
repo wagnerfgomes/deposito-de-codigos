@@ -1,0 +1,10 @@
+.conteudo{
+    height: 100%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}

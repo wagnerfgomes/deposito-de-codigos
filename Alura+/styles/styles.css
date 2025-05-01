@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html{
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+}
+
+:root {
+    font-size: 62.5%;
+    --bk-color: #00030C;
+    --pri-color: white;
+    --pri-color-dark: #C0C0C0;
+    --sec-color: #167bf7;
+    --hover: #212634;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.8rem;
+    color: var(--pri-color);
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: .8rem;
+    font-weight: 400;
+}
+
+.buttonhover:hover{
+    background-color: var(--hover) ;
+    color: var(--pri-color-dark);
+    border: .2rem solid var(--pri-color);
+}
+
+.titlestandard{
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+
+.txtstandard{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--pri-color-dark);
+    line-height: 150%;
+}
+
+.displaysection{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    align-items: center;
+    gap: 7rem;
+    margin: 10rem auto;
+}
+
+body {
+    min-width: 100vw;
+    font-family: "Inter", sans-serif;
+    background-color: var(--bk-color);
+    color: var(--pri-color);
+
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+footer{
+    max-width: 130rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 10rem auto 4rem auto;
+}
+
+.banner{
+    background-image: url(../assets/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 154rem;
+    height: 74rem;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;  
+}
+
+.banner__box{
+    margin: auto auto auto 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__box__title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2.25rem auto .5rem auto
+}
+
+.banner__box__combo{
+    width: 34.8rem;
+    margin: 2.25rem auto .5rem auto
+}
+
+.banner__box__button{
+    width: 51.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin: 2.25rem auto .5rem auto;
+}
+
+.banner__box__warning{
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    color: var(--pri-color-dark);
+}
+
+.banner__box__bluebutton{
+    background-color: var(--sec-color);
+}
+
+.banner__box__simplebutton{
+    border: .1rem solid var(--pri-color-dark);
+}
+
+.watchmode__img{
+    width: 50rem;
+}
+
+.watchmode__txt{
+    width: 59rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.combo__txt{
+    width: 59rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.combo__txt a{
+    width: 16.5rem;
+    background-color: var(--sec-color);
+}
+
+.download__txt{
+    width: 59rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.devices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 162rem;
+    gap: 4rem;
+    margin: 10rem auto;
+}
+
+.devices__conteiner{
+    display: flex;
+    justify-content: space-around;
+    gap: 7rem;
+}
+
+.devices__conteiner div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.device__conteiner__img{
+    width: 34rem;
+}
+
+.devices__conteiner__txt{
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6 rem;
+    width: auto;
+}
+
+.information li{
+    list-style-type:none;
+}
+
+.information a{
+    font-size: 1.6rem;
+    color: var(--pri-color);
+}
+
+.information a:hover {
+    color: var(--sec-color);
+}
+
+.footer__txt{
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 400;
+    color: var(--pri-color-dark);
+    line-height: 150%;
+}
+

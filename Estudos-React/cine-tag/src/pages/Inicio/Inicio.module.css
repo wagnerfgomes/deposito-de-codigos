@@ -1,0 +1,10 @@
+.conteudo{
+    padding: 0 36rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.2rem;
+}

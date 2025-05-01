@@ -1,0 +1,1 @@
+const letra: string = 'A'

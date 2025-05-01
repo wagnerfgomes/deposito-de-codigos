@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "start",
+            "problemMatcher": [],
+            "label": "npm: start (app)",
+            "detail": "concurrently \"npm run watch\" \"npm run server\""
+        },
+        {
+            "type": "shell",
+            "command": "npm start",
+            "problemMatcher": [],
+            "label": "npm: start (API)",
+            "detail": "Inicia o servidor API localizado em 'servidor-api'",
+            "options": {
+                "cwd": "${workspaceFolder}/servidor-api"
+            }
+        },
+        {
+            "type": "shell",
+            "command": "npm start",
+            "problemMatcher": [],
+            "label": "Run All",
+            "detail": "Roda Tudo",
+            "dependsOn": ["npm: start (app)", "npm: start (API)"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

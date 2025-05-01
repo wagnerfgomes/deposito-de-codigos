@@ -1,0 +1,240 @@
+@media screen and ( min-width: 1024px){
+
+    header{
+        display: flex;
+        align-items: center;
+        padding: 1.8rem 5rem;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .header_menuhamburger{
+        display: none;
+    }
+
+    .logo_tipo{
+        display: block;
+        height: 2.5rem;
+
+    }
+
+    .opcoes{
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .opcoes li{
+        padding: .5rem;
+    }
+
+    .opcoes_itens a{
+        color: var(--color-black);
+        text-decoration: none;
+        padding: 2rem;  
+    }
+
+    .favoritos{
+        display: none;
+    }
+
+    .opcoes_itens-categoria{
+        cursor: pointer;
+    }
+
+    .categoria_list_menu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        list-style: none;
+        width: 20vw;
+        box-shadow: .3rem .3rem .4rem rgba(0, 0, 0, 0.421);
+    }
+
+    .menu_categoria{
+        display: none;
+    }
+
+    .menu_categoria:checked ~.categoria_list_menu{
+        display: block;
+    }
+
+    .menu_categoria:checked~.label_categoria a{
+        background: var(--color-gradient);
+        color: var(--color-bg);   
+    }
+
+    .banner_subtitle{
+        font-size: 3.6rem;
+    }
+
+    .banner_text{
+        font-size: 1.6rem;
+    }
+
+    .banner_search{
+        width: 60vw;
+    }
+
+    .banner_search::placeholder{
+        font-size: 1.6rem;
+    }
+    
+    .swiper{
+        width: 80rem;
+        height: 41rem;
+        padding-top: 5rem;
+    }
+
+    .swiper-slide img {
+        display: block;
+        height: 85%;
+    }
+
+    .card_container{
+        width: 60rem;
+        
+    }
+
+    .buttons__cards{
+        padding: 1.6rem 6.4rem;
+    }
+
+    .card{
+        padding-bottom: 4.8rem;
+    }
+
+    .card_info{
+        justify-content: flex-start;
+    }
+
+    .card_info-icons{
+        margin-top: auto;
+    }
+
+    .cardimg{
+        width: 20rem;
+    }
+
+    .topics{
+        padding: 3.2rem 12rem;
+    }
+
+    .topics_title{
+        font-size: 2.4rem;
+    }
+
+    .buttons{
+        font-size: 86%;
+    }
+
+    .contactme{
+        flex-direction: row;
+        padding: 5rem;
+    }
+
+    .contacme_container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+
+    }
+
+    .contact_email{
+        width: 60%;
+        margin-top: 0;
+    }
+    
+    footer{
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 5.6rem 2.4rem 5.6rem 2.4rem;
+        height: 51.3rem;
+    }
+
+    .container_list-footer{
+        display: flex;
+    }
+
+    .sectiontitle{
+        margin: 5.7rem auto 1.6rem auto;
+        font-size: 2.6rem;
+    }
+
+    .buttons_tablet{
+        font-size: 2.4rem;
+        padding: 2.4rem 3.2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .opcoes_itens a:hover{
+        background: var(--color-gradient);
+        color: var(--color-bg);
+    }
+
+    .opcoes li{
+        padding: 1rem;
+    }
+
+    .header_icons{
+        display: flex;
+        align-items: center;
+        color: var(--color-black);
+    }
+
+    .container_icons{
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+    }
+
+    .header_icons_txt{
+        display: block;
+    }
+
+    .sectiontitle{
+        font-size: 3.2rem;
+    }
+
+    .card_container{
+        width: 80rem;
+        height: 40rem;
+    }
+
+    .buttons__cards{
+        padding: 1.6rem 10rem;
+    }
+
+    .card{
+        padding-bottom: 4.8rem;
+    }
+
+    .card_info{
+        height: 100%;
+    }
+
+    .cardimg{
+        width: 28rem;
+    }
+
+    .titlestandard{
+        font-size: 2.2rem;
+    }
+
+    .cardname{
+        font-size: 2.4rem;
+    }
+
+    .textcard{
+        font-size: 1.8rem;
+    }
+    
+    .cardicons{
+        height: 4.2rem;
+    }
+
+    }   
